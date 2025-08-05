@@ -46,3 +46,25 @@
   },
   // Add more objects if needed
 ];
+export const stats = [
+  {
+    number: '3m+',
+    text: 'Ad impressions managed',
+    maxWidth: 'max-w-[10rem]',
+  },
+  {
+    number: '27+',
+    text: 'Successful projects launched',
+    maxWidth: 'max-w-[8rem]',
+  },
+  {
+    number: '98%',
+    text: 'Client satisfaction rate',
+    maxWidth: 'max-w-[7rem]',
+  },
+  {
+    number: '50k+',
+    text: 'Monthly visitors driven through SEO',
+    maxWidth: 'max-w-[9rem]',
+  },
+];

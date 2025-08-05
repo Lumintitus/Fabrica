@@ -8,6 +8,7 @@ import Test from "@/Layout/Test";
 import Why from "@/Layout/Why";
 import About from "@/Layout/About";
 import Images from "@/Layout/Images";
+import Fabricanumber from "@/Layout/Fabricanumber";
 export default function Home() {
   const [state, setState] = useState();
   return (
@@ -20,6 +21,7 @@ export default function Home() {
        <Why/>
        <About/>
        <Images/>
+       <Fabricanumber/>
     </Fragment>
   );
 }
