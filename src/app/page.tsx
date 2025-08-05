@@ -10,6 +10,7 @@ import About from "@/Layout/About";
 import Images from "@/Layout/Images";
 import Fabricanumber from "@/Layout/Fabricanumber";
 import Ourapp from "@/Layout/Ourapp";
+import Boy from "@/Layout/Boy";
 export default function Home() {
   const [state, setState] = useState();
   return (
@@ -24,6 +25,7 @@ export default function Home() {
        <Images/>
        <Fabricanumber/>
        <Ourapp/>
+       <Boy/>
     </Fragment>
   );
 }

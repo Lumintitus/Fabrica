@@ -18,24 +18,24 @@ const Video: React.FC = () => {
                     Your browser does not support the video tag.
                 </video>
                 <div className='absolute inset-0 '>
-                    <div className=''>
-                        <div className='relative'>
-                            <div className='relative'>
-                                <p className='  tracking-tighter font-[600] absolute text-white  top-[9rem] left-[59rem] text-[1.125rem] leading-[1.375rem] '>Branding and Identity</p>
-                                <p className=' tracking-tighter font-[600] absolute text-white  top-[11rem] left-[59rem] text-[1.125rem] leading-[1.375rem]'>Social Media Marketing</p>
-                                <p className=' tracking-tighter font-[600] absolute text-white  top-[13rem] left-[59rem] text-[1.125rem] leading-[1.375rem]'>Web Design and Development</p>
-                                <p className=' tracking-tighter font-[600] absolute text-white  top-[15rem] left-[59rem] text-[1.125rem] leading-[1.375rem]'>SEO Optimization</p>
-                            </div>
-                            <h1 className='text-white text-[12.569rem] font-bold px-12'>fabrica® </h1>
-                            <div className='absolute top-[14rem] left-[36.5rem] tracking-tighter'>
-                                <span className='text-white text-[3rem] font-bold '>Studio</span>
-                            </div>
-                            <div className='absolute top-[25rem] left-[46rem] tracking-tighter'>
-                                <span className='text-[#A2A2A2] font-[500] text-[0.875rem] '>© 2025 fabrica® Studio</span>
-                            </div>
-                        </div>
 
+                    <div className='relative'>
+                        <div className='relative'>
+                            <p className='  tracking-tighter font-[600] absolute text-white  top-[9rem] left-[59rem] text-[1.125rem] leading-[1.375rem] '>Branding and Identity</p>
+                            <p className=' tracking-tighter font-[600] absolute text-white  top-[11rem] left-[59rem] text-[1.125rem] leading-[1.375rem]'>Social Media Marketing</p>
+                            <p className=' tracking-tighter font-[600] absolute text-white  top-[13rem] left-[59rem] text-[1.125rem] leading-[1.375rem]'>Web Design and Development</p>
+                            <p className=' tracking-tighter font-[600] absolute text-white  top-[15rem] left-[59rem] text-[1.125rem] leading-[1.375rem]'>SEO Optimization</p>
+                        </div>
+                        <h1 className='text-white text-[12.569rem] font-bold px-12'>fabrica® </h1>
+                        <div className='absolute top-[14rem] left-[36.5rem] tracking-tighter'>
+                            <span className='text-white text-[3rem] font-bold '>Studio</span>
+                        </div>
+                        <div className='absolute top-[25rem] left-[46rem] tracking-tighter'>
+                            <span className='text-[#A2A2A2] font-[500] text-[0.875rem] '>© 2025 fabrica® Studio</span>
+                        </div>
                     </div>
+
+
                     <div className=' flex gap-[17rem] mt-[-1.375rem] w-[3.5rem] pl-6 '>
                         <img src="/plus-svgrepo-com.svg" alt="Video thumbnail" className=" " />
                         <img src="/plus-svgrepo-com.svg" alt="Video thumbnail" className=" " />
