@@ -60,7 +60,7 @@ const Video: React.FC = () => {
                         <p className='text-[1.375rem] font-[600] leading-[25px] text-[#0a0a0a] pb-1 '>Lauren Thompson</p>
                         <button className=' text-white bg-[#0a0a0a] text-[0.75rem] leading-[12px] border-2  font-[600] pt-1 text-left rounded-[2.25rem] p-1'>Let’s Talk</button>
                     </div> */}
-                    <div className='absolute bottom-0 right-0'>
+                    <div className='absolute bottom-0 right-5'>
                         <Videolike />
                     </div>
 
