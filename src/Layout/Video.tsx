@@ -1,3 +1,4 @@
+import Videolike from '@/Components/Videolike';
 import React from 'react';
 
 const Video: React.FC = () => {
@@ -48,17 +49,21 @@ const Video: React.FC = () => {
                             <p className="text-[#969696] tracking-tight text-[1.375rem] font-[500]">just tools and strategies that help your business grow and your brand shine.</p>
                         </div>
                     </div>
-                    <div className=' bottom-36 left-[60rem] p-1 rounded-[1rem] bg-[#FFFFFF] w-26 relative'>
+                    {/* <div className=' bottom-36 left-[60rem] p-1 rounded-[1rem] bg-[#FFFFFF] w-26 relative'>
                         <div className ='  rounded-[1rem] h-[7.5rem] w-full overflow-hidden  '>
                             <img src="/imgi_1_XBirhPxPnqDiGkAtvDrRCiK4pS8.jpg" alt="" />
                         </div>
-                    </div>
-                    <div className=' relative bottom-[17rem] left-[66.5rem] p-6 bg-[#FFFFFF] rounded-[1rem] w-[10rem] h-[8rem] flex flex-col '>
+                    </div> */}
+                    {/* <div className=' relative bottom-[17rem] left-[66.5rem] p-6 bg-[#FFFFFF] rounded-[1rem] w-[10rem] h-[8rem] flex flex-col '>
                         <p className='text-[0.875rem] font-[600] leading-[14px] text-[#0a0a0a] pb-0.5'>Team Lead</p>
                         <p className='text-[0.75rem] font-[600] leading-[13px] text-[#757575] pb-1' >at fabrica® </p>
                         <p className='text-[1.375rem] font-[600] leading-[25px] text-[#0a0a0a] pb-1 '>Lauren Thompson</p>
                         <button className=' text-white bg-[#0a0a0a] text-[0.75rem] leading-[12px] border-2  font-[600] pt-1 text-left rounded-[2.25rem] p-1'>Let’s Talk</button>
+                    </div> */}
+                    <div className='absolute bottom-0 right-0'>
+                        <Videolike />
                     </div>
+
                 </div>
             </div>
         </div>
