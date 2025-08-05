@@ -6,7 +6,7 @@ export default function Fabricanumber() {
   return (
     <div>
       <div
-        className="px-6 grid flex-none gap-1"
+        className="px-6 grid flex-none gap-1 pb-20"
         style={{ gridTemplateColumns: 'repeat(4, minmax(50px, 1fr))' }}
       >
         {stats.map((item, index) => (
