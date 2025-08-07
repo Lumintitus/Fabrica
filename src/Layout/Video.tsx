@@ -45,7 +45,6 @@ const Video: React.FC = () => {
                     <div className='relative'>
                         <div className=" pt-[3rem] px-9 leading-[1.625rem] max-w-[38.625rem]  text-white">
                             <p className="text-white tracking-tight text-[1.375rem] font-[500]">No generic websites.No empty marketing promises.</p>
-                            {/* <p className="text-white text-[1.375rem] font-[500] px-5"></p> */}
                             <p className="text-[#969696] tracking-tight text-[1.375rem] font-[500]">just tools and strategies that help your business grow and your brand shine.</p>
                         </div>
                     </div>
