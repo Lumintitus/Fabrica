@@ -50,9 +50,10 @@ export default function Casestudy() {
         </div>
       </div>
       <div className='flex-1/2'>
-        <div className='bg-white tracking-tighter p-[2rem] w-[18.5rem] h-[16.75rem] rounded-2xl'>
-        </div>
-        <div className='bg-white tracking-tighter p-[2rem] w-[18.5rem] h-[16.75rem] rounded-2xl'>
+       <div className='bg-white tracking-tighter p-[2rem] w-[18.5rem] h-[16.75rem] rounded-2xl'>
+        <h1 className='font-[450] text-center text-[1.375rem] p-[2.5rem]'>100</h1>
+        <h1 className='text-[1rem] font-[450]  text-center'>Pagespeed score</h1>
+        <p className='text-center text-[#888888] font-[400]'>We prioritize performance without sacrificing visual appeal or functionality.</p>
       </div>
       </div>
 
