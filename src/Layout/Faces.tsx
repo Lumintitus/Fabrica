@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function () {
+function Faces() {
     return (
         <div className='relative pl-8'>
             <div className='bg-white w-[75rem] rounded-2xl h-[30rem]'>
@@ -24,3 +24,5 @@ export default function () {
         </div>
     )
 }
+
+export default Faces;

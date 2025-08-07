@@ -42,7 +42,7 @@ export default function Casestudy() {
           <p className=' pt-[2rem] text-[0.875rem] tracking-tighter font[450] text-[#888888]'>Conversion Rate Improvement:</p>
           <h1 className=' pb-[4rem]  font-[700] tracking-tighter text-[1.855rem]'>4.2% → 5.9%</h1>
           <img className='w-[5rem] tracking-tighter pb-1' src="/5 starts.jpg" alt="" />
-          <p className='text-[#777777] tracking-tighter pb-3 font-[450] max-w-[28rem] text[0.875rem] leading-5'>“Thanks to the redesign, we've seen a steady 60% increase in leads.”</p>
+          <p className='text-[#777777] tracking-tighter pb-3 font-[450] max-w-[28rem] text[0.875rem] leading-5'>“Thanks to the redesign, we have seen a steady 60% increase in leads.”</p>
           <div className='flex gap-4 items-center'>
             <div className='overflow-hidden w-[1.8rem] rounded-[2rem]'><img src="/case study-g.jpg" alt="" /></div>
             <div className='text-[0.75rem] text-[black] font-[500]'><h1>Angela Smith</h1></div>
