@@ -20,13 +20,13 @@ export default function Home() {
        <Video/>
        <Logo/>
        <Projects/>
-       <Test/>
-       <Why/>
-       <About/>
        <Images/>
+       <Why/>
+       <Boy/>
+       <About/>
+       <Test/>
        <Fabricanumber/>
        <Ourapp/>
-       <Boy/>
        <Casestudy/>
     </Fragment>
   );
