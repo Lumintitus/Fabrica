@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Casestudy() {
   return (
-    <div className='flex gap-2'>
-      <div className="pl-8 relative">
+    <div className='flex gap-2 pb-[6rem]'>
+      <div className="pl-8 relative ">
         <div className=" w-[38rem] h-[33.5rem] rounded-2xl bg-[#121212] overflow-hidden">
           {/* Floating Image */}
           <img
@@ -49,12 +49,17 @@ export default function Casestudy() {
           </div>
         </div>
       </div>
-      <div className='flex-1/2'>
-       <div className='bg-white tracking-tighter p-[2rem] w-[18.5rem] h-[16.75rem] rounded-2xl'>
-        <h1 className='font-[450] text-center text-[1.375rem] p-[2.5rem]'>100</h1>
-        <h1 className='text-[1rem] font-[450]  text-center'>Pagespeed score</h1>
-        <p className='text-center text-[#888888] font-[400]'>We prioritize performance without sacrificing visual appeal or functionality.</p>
-      </div>
+      <div className='flex flex-col gap-1'>
+        <div className='bg-white tracking-tighter p-[2rem] w-[18.5rem] h-[16.75rem] rounded-2xl'>
+          <h1 className='font-[450] text-center text-[1.375rem] p-[2.5rem]'>100</h1>
+          <h1 className='text-[1rem] font-[450]  text-center'>Pagespeed score</h1>
+          <p className='text-center text-[#888888] font-[400]'>We prioritize performance without sacrificing visual appeal or functionality.</p>
+        </div>
+        <div className='bg-white tracking-tighter p-[2rem] w-[18.5rem] h-[16.75rem] rounded-2xl'>
+          <h1 className='font-[450] text-center text-[1.375rem] p-[2.5rem]'>100</h1>
+          <h1 className='text-[1rem] font-[450]  text-center'>Pagespeed score</h1>
+          <p className='text-center text-[#888888] font-[400]'>We prioritize performance without sacrificing visual appeal or functionality.</p>
+        </div>
       </div>
 
     </div>

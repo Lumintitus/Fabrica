@@ -12,6 +12,7 @@ import Fabricanumber from "@/Layout/Fabricanumber";
 import Ourapp from "@/Layout/Ourapp";
 import Boy from "@/Layout/Boy";
 import Casestudy from "@/Layout/Casestudy";
+import Faces from "@/Layout/Faces";
 export default function Home() {
   const [state, setState] = useState();
   return (
@@ -28,6 +29,7 @@ export default function Home() {
        <Fabricanumber/>
        <Ourapp/>
        <Casestudy/>
+       <Faces/>
     </Fragment>
   );
 }
