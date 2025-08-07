@@ -50,15 +50,69 @@ export default function Casestudy() {
         </div>
       </div>
       <div className='flex flex-col gap-1'>
-        <div className='bg-white tracking-tighter p-[2rem] w-[18.5rem] h-[16.75rem] rounded-2xl'>
+        <div className='bg-white tracking-tighter p-[2rem] w-[18.5rem] h-[16.75rem] rounded-2xl '>
           <h1 className='font-[450] text-center text-[1.375rem] p-[2.5rem]'>100</h1>
           <h1 className='text-[1rem] font-[450]  text-center'>Pagespeed score</h1>
           <p className='text-center text-[#888888] font-[400]'>We prioritize performance without sacrificing visual appeal or functionality.</p>
         </div>
         <div className='bg-white tracking-tighter p-[2rem] w-[18.5rem] h-[16.75rem] rounded-2xl'>
-          <h1 className='font-[450] text-center text-[1.375rem] p-[2.5rem]'>100</h1>
-          <h1 className='text-[1rem] font-[450]  text-center'>Pagespeed score</h1>
-          <p className='text-center text-[#888888] font-[400]'>We prioritize performance without sacrificing visual appeal or functionality.</p>
+          <div className="">
+            <div className="flex items-center justify-between">
+              <div>
+                <h2 className="text-3xl font-bold">38K</h2>
+                <p className="text-gray-500 text-[0.75rem]">Quarterly visits</p>
+              </div>
+              <div className="text-[0.625rem] bg-gray-100 text-gray-700 px-2 py-1 rounded-full font-medium mr-auto">
+                +30%
+              </div>
+
+            </div>
+
+            <div className=" flex items-end justify-between space-x-3 h-40">
+              <div className="flex flex-col items-center">
+                <div className="w-8 h-12 bg-[#f5f5f5] rounded-t-md text-xs flex items-center justify-center mb-1">
+                  <p className='-rotate-90'>+1k</p>
+                </div>
+                <span className="text-xs text-gray-500">Dec</span>
+              </div>
+
+              <div className="flex flex-col items-center">
+                <div className="w-8 h-14 bg-[#f5f5f5] rounded-t-md text-xs flex items-center justify-center mb-1">
+                  <p className='-rotate-90'>+1.3k</p>
+                </div>
+                <span className="text-xs text-gray-500">Jan</span>
+              </div>
+
+              <div className="flex flex-col items-center">
+                <div className="w-8 h-11 bg-[#f5f5f5] rounded-t-md text-xs flex items-center justify-center mb-1">
+                  <p className='-rotate-90'>+1.1k</p>
+                </div>
+                <span className="text-xs text-gray-500">Feb</span>
+              </div>
+
+              <div className="flex flex-col items-center">
+                <div className="w-8 h-16 bg-[#f5f5f5] rounded-t-md text-xs flex items-center justify-center mb-1">
+                  <p className='-rotate-90'>+1.5k</p>
+                </div>
+                <span className="text-xs text-gray-500">Feb</span>
+              </div>
+
+              <div className="flex flex-col items-center">
+                <div className="w-8 h-24 bg-[#f5f5f5] rounded-t-md text-xs flex items-center justify-center mb-1">
+                 <p className='-rotate-90'>+2.3k</p> 
+                </div>
+                <span className="text-xs text-gray-500">Feb</span>
+              </div>
+
+              <div className="flex flex-col items-center">
+                <div className="w-8 h-36 bg-black text-white rounded-t-md text-xs flex items-center mb-1">
+                 <p className='-rotate-90'> +5.9k</p>
+                </div>
+                <span className="text-xs text-gray-500">Mar</span>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
 

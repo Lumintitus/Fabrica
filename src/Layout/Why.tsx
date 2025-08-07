@@ -9,7 +9,7 @@ export default function Why() {
             </div>
             <div className='pl-[4rem] '>
                 <h2 className=' tracking-tight text-[3.75rem] leading-[4.125rem] pl-[14rem] font-[600] pb-2'>Proven results for every project, </h2> 
-                <div className='font-[600] text-[#686868] tracking-tight pl-[14rem] text-[3.75rem] leading-[4.125rem]'>with a focus on design and functionality.</div>
+                <div className='font-[600] text-[#686868] tracking-tight pl-[14rem] text-[3.75rem] leading-[4.125rem] pb-[8rem]'>with a focus on design and functionality.</div>
              </div>    
         </div>
     )

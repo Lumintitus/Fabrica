@@ -25,11 +25,12 @@ export default function Home() {
        <Why/>
        <Boy/>
        <About/>
-       <Test/>
        <Fabricanumber/>
-       <Ourapp/>
        <Casestudy/>
-       <Faces/>
+       <Ourapp/>
+       <Test/>
+       {/* <Faces/> */}
     </Fragment>
+    
   );
 }
