@@ -43,14 +43,14 @@ export default function Images() {
             <div className="text-[#686868] text-sm font-semibold ml-2">
               {item.year}
             </div>
-            {/* <div className="flex gap-1 ml-auto">
+            <div className="flex gap-1 ml-auto">
               {[...Array(3)].map((_, dotIndex) => (
                 <div
                   key={dotIndex}
                   className="bg-[#e7e7e7] rounded-full h-2 w-2"
                 ></div>
               ))}
-            </div> */}
+            </div>
           </div>
 
           {/* Image Block */}

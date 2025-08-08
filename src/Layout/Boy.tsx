@@ -5,7 +5,7 @@ export default function Boy() {
   return (
     <div>
       <div className='flex justify-between px-9 '>
-        <div className='max-w-[18rem]  rounded-2xl '>
+        <div className='max-w-[18rem]  md:flex-col  rounded-2xl '>
           <Image
             width={1000}
             height={1000}
@@ -15,7 +15,7 @@ export default function Boy() {
           />
         </div>
         <div className=''>
-          <div className=' pb-[4rem] leading-[1.625rem] text-[#686868] max-w-[37rem] text-[1.375rem] tracking-tighter font-[500]'><p> <span className='pl-[6rem] text-justify font-[500] text-black tracking-tighter text-[1.375rem]'>No fluff, just results.</span> Thoughtful design and tools that make your work easier. We focus on smart design and useful features, project after project.</p></div>
+        <div className='pb-[4rem] leading-[1.625rem] text-[#686868] max-w-[37rem] text-[1.375rem] tracking-tighter font-[500]'><p> <span className='pl-[6rem] text-justify font-[500] text-black tracking-tighter text-[1.375rem]'>No fluff, just results.</span> Thoughtful design and tools that make your work easier. We focus on smart design and useful features, project after project.</p></div>
           <div className='flex gap-1'>
             <div className=' bg-white w-[19rem] h-[7rem] rounded-2xl p-5.5 flex gap-[9rem] text-[2.813rem] tracking-tight font-[600]'><h1>50+</h1>
               <div className='text-[#686868] text-[0.625rem] font-[600] '><h1>01</h1></div>

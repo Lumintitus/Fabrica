@@ -26,11 +26,26 @@ const Video: React.FC = () => {
                             <p className=' tracking-tighter font-[600] absolute text-white  top-[13rem] left-[59rem] text-[1.125rem] leading-[1.375rem]'>Web Design and Development</p>
                             <p className=' tracking-tighter font-[600] absolute text-white  top-[15rem] left-[59rem] text-[1.125rem] leading-[1.375rem]'>SEO Optimization</p>
                         </div>
-                        <h1 className='text-white text-[12.569rem] font-bold px-12'>fabrica® </h1>
-                        <div className='absolute top-[14rem] left-[36.5rem] tracking-tighter'>
-                            <span className='text-white text-[3rem] font-bold '>Studio</span>
+                        <h1 className='text-white text-[110px] sm:text-[96px] md:text-[10rem] lg:text-[12.569rem] font-bold px-4 sm:px-12'>fabrica® </h1>
+
+                        <div className='absolute 
+                                             top-[8rem]           /* Default: mobile */
+                                             sm:top-[7rem]       /* Small screens */
+                                             md:top-[12rem]        /* Medium screens - adjust upward */
+                                             lg:top-[14rem]       /* Large screens */
+  
+                                             left-[1.5rem] 
+                                             sm:left-[3rem] 
+                                             md:left-[3.5rem] 
+                                             lg:left-[36.5rem] 
+                                             tracking-tighter'>
+
+                            <span className='text-white text-[40px] sm:text-[48px] md:text-[3rem] lg:text-[3rem] font-bold'>
+                                Studio
+                            </span>
                         </div>
-                        <div className='absolute top-[25rem] left-[46rem] tracking-tighter'>
+
+                        <div className='absolute lg:top-[25rem] left-[46rem] tracking-tighter'>
                             <span className='text-[#A2A2A2] font-[500] text-[0.875rem] '>© 2025 fabrica® Studio</span>
                         </div>
                     </div>

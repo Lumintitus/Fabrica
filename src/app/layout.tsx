@@ -3,6 +3,7 @@ import { Geist, Geist_Mono,Inter } from "next/font/google";
 import "./globals.css";
 import Scroll from "@/Components/Scroll";
 
+
 const inter = Inter({
   variable: "--font-geist-sans",
   subsets: ["latin"],
